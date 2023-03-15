@@ -4,7 +4,6 @@ class Main {
   public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);
-    
     Double a, b;
     System.out.println("Wprowadź dwie liczby: ");
     a = scanner.nextDouble();
@@ -20,7 +19,8 @@ class Main {
           break;
 
         case 2:
-          System.out.println("Pole trójkąta prostokątnego o podanych bokach wynosi " + a*b/2);
+          System.out.println("Pole trojkąta prostokątnego o podanych bokach wynosi " + a*b/2);
+          break;
       }
     
     
